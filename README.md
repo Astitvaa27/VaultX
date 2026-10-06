@@ -123,13 +123,13 @@ src/
 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/vaultx.git
+git clone https://github.com/Astitvaa27/VaultX.git
 ```
 
 Navigate to the project
 
 ```bash
-cd vaultx
+cd VaultX
 ```
 
 Install dependencies

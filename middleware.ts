@@ -5,7 +5,6 @@ const JWT_SECRET = process.env.JWT_SECRET!;
 
 
 export function middleware(req: NextRequest) {
-  console.log("Middleware:", req.nextUrl.pathname);
   const token = req.cookies.get("token")?.value;
 
   const isAuthPage =

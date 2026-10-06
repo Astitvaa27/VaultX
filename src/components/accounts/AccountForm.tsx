@@ -59,8 +59,6 @@ export default function AccountForm({
   const form = watch();
 
   const onSubmit: SubmitHandler<AccountInput> = async (data) => {
-    console.log("Submitting...", data);
-
     try {
       setLoading(true);
 
@@ -77,7 +75,6 @@ export default function AccountForm({
       });
 
       const result = await res.json();
-      console.log(result);
 
       if (!res.ok) {
         throw new Error(result.message || "Request failed");
