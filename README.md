@@ -160,38 +160,6 @@ npm run build
 
 ---
 
-## 📸 Screenshots
-
-### Login
-
-![Login](screenshots/login.png)
-
-### Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
-### Accounts
-
-![Accounts](screenshots/accounts.png)
-
-### Transactions
-
-![Transactions](screenshots/transactions.png)
-
-### Analytics
-
-![Analytics](screenshots/analytics.png)
-
-### Budgets
-
-![Budgets](screenshots/budgets.png)
-
-### Settings
-
-![Settings](screenshots/settings.png)
-
----
-
 ## 🌐 Deployment
 
 Deploy easily using **Vercel**.
